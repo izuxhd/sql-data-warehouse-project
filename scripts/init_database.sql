@@ -1,4 +1,6 @@
-
+/*
+ create  the  data warehouse  and  different  schemas bronze, silver, and  gold  for  three  datalayers  for a zone
+*/
 
 use master;
  IF  EXISTS(select  1  from  databases where name='Datawarehouse')
