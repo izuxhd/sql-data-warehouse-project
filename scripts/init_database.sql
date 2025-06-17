@@ -1,7 +1,8 @@
 /*
- create  the  data warehouse  and  different  schemas bronze, silver, and  gold  for  three  datalayers  for a zone
-*/
+ create  the  data warehouse  and  different  schemas, bronze, silver, and  gold,  for  three  datalayers  for a zone
 
+ WARNING: ALL the database  will be  lost  running  this  script
+*/
 use master;
  IF  EXISTS(select  1  from  databases where name='Datawarehouse')
    BEGIN
